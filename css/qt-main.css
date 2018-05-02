@@ -4845,7 +4845,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.3);
   padding: 0;
-  color: snow;
+  color: cadetblue;
   position: relative;
   z-index: 10; }
   .qt-header .qt-valign-wrapper {
