@@ -2090,13 +2090,23 @@ ul {
   ul.browser-default {
     list-style-type: initial; }
 
+.history {
+  font-family: 'Dosis', sans-serif;
+}    
 a {
-  color: #FF1744;
+  color: chocolate;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent; }
   a:hover {
-    color: #ff6482; }
+    color: black; }
 
+.links {color: chocolate;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  }
+  a:hover {
+
+    }
 .valign-wrapper {
   display: flex;
   align-items: center; }
@@ -3088,7 +3098,7 @@ input[type=range] + .thumb {
     width: 15%;
     min-width: 80px; }
     .tabs .tab a {
-      color: #FF1744;
+      color: chocolate;
       display: block;
       width: 100%;
       height: 100%;
@@ -3096,7 +3106,7 @@ input[type=range] + .thumb {
       overflow: hidden;
       transition: color .28s ease; }
       .tabs .tab a:hover {
-        color: #ff7d96; }
+        color: green; }
     .tabs .tab.disabled a {
       color: #ff7d96;
       cursor: default; }
@@ -3104,7 +3114,7 @@ input[type=range] + .thumb {
     position: absolute;
     bottom: 0;
     height: 2px;
-    background-color: #ff6482;
+    background-color: chocolate;
     will-change: left, right; }
 
 .btn, .btn-large, .btn-flat {
@@ -3167,7 +3177,7 @@ input[type=range] + .thumb {
 .btn, .btn-large {
   text-decoration: none;
   color: #fff;
-  background-color: #26a69a;
+  background-color: chocolate;
   text-align: center;
   letter-spacing: .5px;
   transition: .2s ease-out;
@@ -4793,7 +4803,7 @@ h1, h2, h3, h4, h5, h6 {
         display: inline-block;
         color: #ffffff; }
         .qt-menu-wrapper .qt-menu ul.qt-desktopmenu li a {
-          color: inherit;
+          color: chocolate;
           padding: 5px 20px;
           transform: translate3d(0, 0, 0);
           position: relative;
@@ -4806,7 +4816,7 @@ h1, h2, h3, h4, h5, h6 {
             position: absolute;
             left: 0;
             top: 50%;
-            background: #FF1744;
+            background: #01070a61;
             transform: rotate(315deg);
             margin: -4px 0 0 20px;
             z-index: -1;
@@ -4835,7 +4845,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.3);
   padding: 0;
-  color: white;
+  color: rgb(2, 19, 3);
   position: relative;
   z-index: 10; }
   .qt-header .qt-valign-wrapper {
@@ -4902,7 +4912,10 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     margin-bottom: 0.7em;
     margin-top: 0;
-    padding-top: 1em; }
+    padding-top: 1em; 
+    font-size: 70px;
+  }
+    
     .section .qt-section-title::after, .section .qt-section-title::before {
       content: " ";
       display: block;
@@ -4939,13 +4952,12 @@ h1, h2, h3, h4, h5, h6 {
         margin: 0 0 0 -5px; }
   .section.section-music {
     background-color: #343434;
-    color: #eceff1;
+    color: white;
     z-index: 14;
     padding-bottom: 70px; }
   .section.section-photos {
     z-index: 13; }
     .section.section-photos .qt-section-title {
-      position: absolute;
       z-index: 10;
       display: block;
       width: 100%;
@@ -4956,7 +4968,6 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     z-index: 1; }
     .section.section-bio .parallax img {
-      position: fixed;
       z-index: -1; }
     .section.section-bio .content {
       width: 90%;
@@ -4976,7 +4987,7 @@ h1, h2, h3, h4, h5, h6 {
           display: block;
           content: " ";
           width: 100px;
-          border-bottom: 6px solid #FF1744;
+          border-bottom: 8px solid chocolate;
           position: absolute;
           bottom: 0; }
   .section.section-booking {
@@ -5320,3 +5331,34 @@ h1, h2, h3, h4, h5, h6 {
       width: 6px; }
   .slick-slider .slick-arrow {
     width: 50px; } }
+
+    .beaut {
+      font-family: 'Dosis', sans-serif;
+      font-family: 'Amatic SC', cursive; 
+     font-size: 35px;
+    }
+  @font-face {
+    font-family: Aliens;
+    src: url(../fonts/easy/Aliens.ttf);
+  }
+
+.fonte1 {
+  font-family: Aliens;
+}
+ @font-face {
+  font-family: Invaders;
+  src: url(../fonts/easy/Invaders.ttf);
+}
+
+.fontenave {
+    font-family: Invaders;
+ }
+
+.titulo {
+  font-family: 'Zilla Slab Highlight', cursive;
+}
+.vertente {
+  font-family: 'Anurati', cursive;
+  font-size: 20px
+
+}
