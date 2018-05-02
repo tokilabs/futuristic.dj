@@ -1789,7 +1789,7 @@ audio:not([controls]) {
   height: 0; }
 
 /**
- * Address `[hidden]` styling not present in IE 8/9/10.
+ * Address `[hidden]` styling not present in IE 8/9/10
  * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
  */
 [hidden],
@@ -4845,7 +4845,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.3);
   padding: 0;
-  color: rgb(2, 19, 3);
+  color: snow;
   position: relative;
   z-index: 10; }
   .qt-header .qt-valign-wrapper {
