@@ -5340,18 +5340,17 @@ h1, h2, h3, h4, h5, h6 {
   @font-face {
     font-family: Aliens;
     src: url(../fonts/easy/Aliens.ttf);
+    font-family: Invaders;
+    src: url(../fonts/easy/Invaders.ttf);  
   }
 
 .fonte1 {
   font-family: Aliens;
 }
- @font-face {
-  font-family: Invaders;
-  src: url(../fonts/easy/Invaders.ttf);
-}
 
 .fontenave {
     font-family: Invaders;
+    font-size: 25px;
  }
 
 .titulo {
