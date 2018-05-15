@@ -1492,7 +1492,7 @@ Index of contents:
   background-color: #eceff1; }
 
 .blue-grey-text.text-lighten-5 {
-  color: #eceff1; }
+  color: #72c18e; }
 
 .blue-grey.lighten-4 {
   background-color: #cfd8dc; }
@@ -2094,7 +2094,7 @@ ul {
   font-family: 'Dosis', sans-serif;
 }    
 a {
-  color: chocolate;
+  color: #0a33ff;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent; }
   a:hover {
