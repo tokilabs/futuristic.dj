@@ -4779,9 +4779,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -90px; }
   .qt-menu-wrapper.skrollable-after {
     z-index: 100;
-    position: fixed;
-    top: 0;
-    width: 100%;
+    position: absolute;
+    top: 800px;
+    width: 200%;
     margin-top: -10px;
     background-color: #212121; }
   .qt-menu-wrapper .qt-menu {
@@ -4844,9 +4844,9 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.3);
-  padding: 800px 0px 0px 0px;
+  padding: 0;
   color: #cdd6b4;
-  position: absolute;
+  position: relative;
   z-index: 10; }
   .qt-header .qt-valign-wrapper {
     position: relative;
