@@ -4776,11 +4776,13 @@ h1, h2, h3, h4, h5, h6 {
 /* 04. Menu
 ================================================================ */
 .qt-menu-wrapper {
-  margin-top: -90px; }
+  margin-top: -90px; 
+  width: 150%; }
+
   .qt-menu-wrapper.skrollable-after {
     z-index: 100;
     position: absolute;
-    top: 800px;
+    top: 0;
     width: 200%;
     margin-top: -10px;
     background-color: #212121; }
