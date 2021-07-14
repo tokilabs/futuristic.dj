@@ -4846,7 +4846,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 0;
   color: #cdd6b4;
-  position: relative;
+  position: absolute;
   z-index: 10; }
   .qt-header .qt-valign-wrapper {
     position: relative;
