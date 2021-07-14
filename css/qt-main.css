@@ -4776,9 +4776,7 @@ h1, h2, h3, h4, h5, h6 {
 /* 04. Menu
 ================================================================ */
 .qt-menu-wrapper {
-  margin-top: -90px; 
-  width: 150%; }
-
+  margin-top: -90px; }
   .qt-menu-wrapper.skrollable-after {
     z-index: 100;
     position: absolute;
@@ -5364,4 +5362,11 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Inconsolata', monospace;
   font-size: 20px
 
+}
+
+/***********************
+* MINHAS ALTERAÇÕES
+************************/
+#stickymenu ul.qt-desktopmenu li a {
+  color: #fff;
 }
