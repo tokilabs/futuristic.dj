@@ -1,0 +1,214 @@
+body {
+    font-family: 'Poppins';
+    font-weight: 400;
+    text-align: center;
+}
+
+.cabecalho {
+    background-color: rgba( 0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.cabecalho .logo {
+    width: 65px;
+}
+
+.cabecalho .logo2 {
+    width: 65px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.cabecalho nav li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+
+/* a:hover é quando vc passa o mouse em cima do a. Hover tem essa caracteristica */
+
+.cabecalho nav li a:hover {
+    background-color: rgb(213, 1, 29);
+}
+
+.imagem-titulo {
+    width: 500px;
+    margin-bottom: 16px;
+}
+
+.main.container {
+    display: flex;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 0px, 30px, 30px;
+}
+
+.container .imagem-titulo {
+    max-width: 500px;
+}
+
+.container .descricao {
+    color: #a8adb7;
+    width: 85%;
+    font-size: 16px;
+    margin: 30px, 0px;
+    margin-left: 55px;
+}
+
+.descricao {
+    font-size: 10px;
+    margin-left: 50px;
+    background-color: rgba(52, 52, 50, 0.2);
+    margin: 40px;
+}
+
+.botao-trailer {
+    letter-spacing: 0.2em;
+    padding: 10px 30px;
+    margin-right: 36px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    outline: none;
+    background: none;
+    border-radius: 50px;
+    border: 1px solid #3498db;
+    align-items: center;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+}
+
+.botao-trailer::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.8s;
+}
+
+.botao-trailer:hover {
+    letter-spacing: 0.4em;
+    background-color: #3498db;
+    transition: 0.6s;
+}
+
+.fundo-video {
+    background-color: red;
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.fundo-video .video {
+    height: 100vh;
+}
+
+.fundo-video::after {
+    content: "";
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 1) 100%);
+}
+
+.modal {
+    background-color: rgba(52, 52, 50, 0.749);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.conteudo-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    border-radius: 5px;
+    gap: 15px;
+}
+
+.fechar-modal {
+    background-color: #ffffff;
+    color: #f03a17;
+    font-weight: bold;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.modal iframe {
+    border-width: 0;
+    width: 640px;
+    height: 360px;
+}
+
+.modal.aberto {
+    opacity: 1;
+    visibility: visible;
+}
+
+div .informacoes {
+    text-align: center;
+}
+
+.fundo-bg {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    background: url("../images/imagens/artealbumcompress.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.3;
+}
+
+header.cabecalho {
+    max-height: 68px;
+}
+
+img.logo2 {
+    margin: -22px;
+}
+
+img.logo {
+    margin: -22px;
+}

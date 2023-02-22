@@ -1,0 +1,132 @@
+    @media (max-width: 1200px) {
+        body {
+            background: rgb(0, 0, 0);
+            font-weight: 300;
+        }
+        .fundo-bg {
+            background-position: right;
+        }
+        button.botao-trailer {
+            margin-left: 60px;
+        }
+        img.logo2 {
+            margin-left: 200px;
+        }
+        .mario {
+            display: none;
+        }
+        a .logo2 {
+            margin-left: 40px;
+        }
+        .fundo-video {
+            display: none;
+        }
+        img .mario {
+            margin-top: 400px;
+        }
+        .container {
+            flex-wrap: wrap;
+            justify-content: center;
+            height: auto;
+            gap: 30px;
+            width: 100%;
+        }
+        .container .mario {
+            max-width: 50%;
+        }
+        .container .informacoes {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 60px;
+        }
+        .container .descricao {
+            color: white;
+            letter-spacing: 1px;
+            font-weight: bold;
+            text-align: center;
+            margin-right: 45px;
+        }
+        .container .botao-trailer {
+            background-color: #d5011d;
+            margin-right: 10px;
+        }
+        .cabecalho nav li a:hover {
+            background-color: rgb(213, 1, 29);
+        }
+        .cabecalho {
+            background-color: black (0, 0, 0, 0.5);
+        }
+        button.botao-trailer {
+            align-items: center;
+        }
+    }
+    
+    @media (max-width: 500px) {
+        button.botao-trailer {
+            margin-left: 60px;
+        }
+        .cabecalho {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2px;
+        }
+        ul.menu {
+            margin-left: 30px;
+        }
+        .container .imagem-titulo {
+            max-width: 75%;
+        }
+        .modal .fechar-modal {
+            width: 30px;
+            line-height: 30px;
+        }
+        .modal #video {
+            width: 300px;
+            height: 169px;
+        }
+        nav {
+            display: none;
+        }
+    }
+    
+    @media (max-width: 376) {
+        .modal #video {
+            width: 250px;
+            height: 140px;
+        }
+        .cabecalho {
+            flex-wrap: wrap;
+            gap: 1px;
+        }
+    }
+    
+    @media (max-width: 1400px) {
+        img.logo2 {
+            margin-left: 6px;
+        }
+        .botao-trailer {
+            margin-top: 480px;
+        }
+    }
+    
+    @media (max-width: 1200px) {
+        img.logo2 {
+            margin-left: 40px;
+        }
+        .botao-trailer {
+            margin-top: 480px;
+        }
+    }
+    
+    @media (max-width: 795px) {
+        .fundo-bg {
+            background-position: right;
+        }
+    }
+    
+    @media (max-width: 492px) {
+        .fundo-bg {
+            background-position: 75% 50%;
+        }
+    }
